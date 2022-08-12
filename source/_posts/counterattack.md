@@ -1,11 +1,15 @@
 ---
 abbrlink: ''
-categories: []
+categories:
+- ''
+- oi
 date: '2022-08-08 20:50:11'
+mathjax: true
 tags:
 - ''
+- oi
 title: 青岛市2022编程市赛 T3结论与简易证明
-updated: '2022-08-08 20:50:11'
+updated: '2022-08-12 15:41:51'
 ---首先，结论与证明来自[http://oeis.org/A005732/a005732.pdf](http://oeis.org/A005732/a005732.pdf)，这里给出简单翻译和加工
 
 给出结论，在一个圆上取 $n$ 个点相连，构成的三角形个数为 $C_{n+3}^6+C_{n+1}^5+C_n^5$
