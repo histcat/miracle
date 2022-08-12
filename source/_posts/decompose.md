@@ -7,7 +7,7 @@ mathjax: true
 tags:
 - oi
 title: 浅谈分块
-updated: '2022-08-12 18:52:46'
+updated: '2022-08-12 18:53:53'
 ---## 分块含义
 
 > 分块是一种思想，而不是一种数据结构。
@@ -44,7 +44,7 @@ updated: '2022-08-12 18:52:46'
 对于刚刚的那道线段树题目，我们可以写出分块的代码
 
 ```cpp
-#include <bits/stdc++.h>
+```#include <bits/stdc++.h>
 
 using namespace std;
 const int N = 1e5 + 5;
@@ -146,6 +146,7 @@ end:
     cerr << "Time Used:" << clock() - c1 << "ms" << endl;
     return 0;
 }
+```
 
 tips:
 
@@ -159,8 +160,4 @@ tips:
 
 to be continued....
 
-```
 
-```
-
-```
