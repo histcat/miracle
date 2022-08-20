@@ -7,7 +7,7 @@ tags:
 - mathjax
 - 博客配置
 title: hexo博客mathjax支持
-updated: '2022-08-13 20:01:20'
+updated: '2022-08-20 21:10:45'
 ---我选择的这个主题没有自带数学渲染器，（但写文章怎么能没有latex呢），所以就寻找安装latex办法这里给出一种简单方法。qwq
 
 ## 安装
@@ -40,5 +40,5 @@ mathjax:
 ## 注意
 
 1. 单个美元符号引入的公式美元符号，开头的$后和结尾的$前不能有空格
-2. 如果latex内符号和markdown语法有冲突 请用\转义 如* 要写成\*
+2. 如果latex内符号和markdown语法有冲突 请用\转义 如\* 要写成\\\*
 3. [this](https://latexlive.com) 可以将你的latex转义
