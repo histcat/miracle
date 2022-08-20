@@ -1,26 +1,6 @@
 <% if (page.layout !== "404"){ %>
 <footer class="text-center">
     <%- theme.custom.footer_html %>
-    <% if(theme.global.web_analytics.busuanzi.enable){ %>
-        <% var pv_texts = theme.global.web_analytics.busuanzi.pv_format.split('{}') %>
-        <% var uv_texts = theme.global.web_analytics.busuanzi.uv_format.split('{}') %>
-        <% if (theme.global.web_analytics.busuanzi.pv_format) { %>
-            <!-- 不蒜子统计PV -->
-            <span id="busuanzi_container_site_pv" style="display: none">
-                <%- pv_texts[0] %>
-                <span id="busuanzi_value_site_pv"></span>
-                <%- pv_texts[1] %>
-              </span>
-          <% } %>
-          <% if (theme.global.web_analytics.busuanzi.uv_format) { %>
-            <!-- 不蒜子统计UV -->
-            <span id="busuanzi_container_site_uv" style="display: none">
-                <%- uv_texts[0] %>
-                <span id="busuanzi_value_site_uv"></span>
-                <%- uv_texts[1] %>
-              </span>
-          <% } %>
-    <% } %>
     <% if (theme.beian.enable){ %>
         <span>
             <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
@@ -61,7 +41,26 @@
     <p>&copy; <% if (theme.global.copyright.from_year){ %> <%- theme.global.copyright.from_year %> - <% } %><%- theme.global.copyright.to_year %>&nbsp;&nbsp;<%- theme.global.copyright.name || hexo.title %></p>
     <% } %>
     <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme by <a href="https://github.com/hifun-team/hexo-theme-miracle" target="_blank">Miracle</a></p>
-    
+        <% if(theme.global.web_analytics.busuanzi.enable){ %>
+        <% var pv_texts = theme.global.web_analytics.busuanzi.pv_format.split('{}') %>
+        <% var uv_texts = theme.global.web_analytics.busuanzi.uv_format.split('{}') %>
+        <% if (theme.global.web_analytics.busuanzi.pv_format) { %>
+            <!-- 不蒜子统计PV -->
+            <span id="busuanzi_container_site_pv" style="display: none">
+                <%- pv_texts[0] %>
+                <span id="busuanzi_value_site_pv"></span>
+                <%- pv_texts[1] %>
+              </span>
+          <% } %>
+          <% if (theme.global.web_analytics.busuanzi.uv_format) { %>
+            <!-- 不蒜子统计UV -->
+            <span id="busuanzi_container_site_uv" style="display: none">
+                <%- uv_texts[0] %>
+                <span id="busuanzi_value_site_uv"></span>
+                <%- uv_texts[1] %>
+              </span>
+          <% } %>
+    <% } %>
     
 </footer>
 <% } %>
