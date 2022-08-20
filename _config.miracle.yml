@@ -126,7 +126,18 @@ custom:
     header_html: ''
     # 页面底部 HTML
     # Page footer HTML
-    footer_html: ''
+    footer_html: '<span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>'
     # 页面自定义 JS（底部引入）
     # Page custom JS (introduced at the bottom)
     js: 
