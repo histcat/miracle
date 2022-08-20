@@ -126,14 +126,14 @@ custom:
     header_html: ''
     # 页面底部 HTML
     # Page footer HTML
-    footer_html: '<span id="busuanzi_container_site_pv" style="display: none">
+    footer_html: '<span id="busuanzi_container_site_pv">
         总访问量 
         <span id="busuanzi_value_site_pv"></span>
          次
       </span>
     
     
-      <span id="busuanzi_container_site_uv" style="display: none">
+      <span id="busuanzi_container_site_uv">
         总访客数 
         <span id="busuanzi_value_site_uv"></span>
          人
