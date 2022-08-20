@@ -65,7 +65,7 @@ global:
         cnzz:
 
         busuanzi:
-            enable: false
+            enable: true
             # 页面显示的文本，{} 是数字的占位符（必须包含)，下同
             # Displayed text, {} is a placeholder for numbers (must be included), the same below.
             pv_format: "总访问量 {} 次"
@@ -231,7 +231,7 @@ post:
     # 由 不蒜子 提供支持
     # Supported by busuanzi
     views:
-        enable: true
+        enable: false
         format: "共 {} 次阅读"
 
     # 评论插件
