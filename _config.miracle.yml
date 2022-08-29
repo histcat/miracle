@@ -435,7 +435,7 @@ links:
 # Talk Page
 #---------------------------
 talk:
-    enable: true
+    enable: false
 
     # Page Title
     title: 说说
