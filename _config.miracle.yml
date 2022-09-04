@@ -445,7 +445,7 @@ talk:
 
     # HexoPlusPlus, See: https://hexoplusplus.js.org/use/hexoinit.html
     HPP:
-        domain: https://hpp-admin.histcat.top/
+        domain: hpp-admin.histcat.top
         limit: 10
         start: 0
 
