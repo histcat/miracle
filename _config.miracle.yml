@@ -375,7 +375,7 @@ comment:
     # Twikoo
     # See: https://twikoo.js.org/quick-start.html#%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2
     twikoo:
-        envid: https://twikoo.histmoe.eu.org
+        envid: https://twikoo.histcat.top
         region: ap-shanghai
         path: window.location.pathname
         # 是否为 Vercel 版本
