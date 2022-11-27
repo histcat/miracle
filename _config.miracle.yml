@@ -494,6 +494,6 @@ static_prefix:
     waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/
     fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/
     mermaid: https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/ 
-    twikoo: https://cdn.staticfile.org/twikoo/1.6.7/
+    twikoo: https://cdn.staticfile.org/twikoo/1.6.8/
     artitalk: https://unpkg.com/artitalk@3.3.4/artitalk.js
     hpp: https://fastly.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/
