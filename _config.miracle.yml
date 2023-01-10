@@ -80,7 +80,7 @@ global:
         from_year: 2020
         # 结束年份
         # End year.
-        to_year: 2022
+        to_year: 2023
         name: "Histcat's Blog"
 
     # 哀悼模式，网页黑白
