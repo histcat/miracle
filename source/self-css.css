@@ -1,4 +1,4 @@
 .katex-display {
   overflow-x: auto;
-  overflow-y: clip;
+  overflow-y: visible;
 }
