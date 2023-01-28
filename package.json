@@ -43,6 +43,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "markdown-it-toc": "^1.1.0",
-    "uslug": "^1.0.4"
+    "uslug": "^1.0.4",
+    "hexo-theme-miracle": "^2.3.6"
   }
 }
