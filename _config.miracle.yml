@@ -132,7 +132,7 @@ custom:
     js: https://cdn.dusays.com/bsz.js
     # 页面自定义 CSS
     # Page custom CSS
-    css: 
+    css: https://blog.histcat.top/self-css.css
 
 ##---------------------------
 ## 主题
