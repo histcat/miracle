@@ -313,7 +313,7 @@ post:
 
     # 阅读进度
     readingProgress:
-        enable: true
+        enable: false
 
 
 
