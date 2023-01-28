@@ -90,7 +90,9 @@ global:
         # 日期, (M-D)
         # Date, (M-D)
         # eg: 7-8, 9-30, 12-1, 12-30 ...
-        date: "7-8"
+        date: 
+            - "7-8"
+            - "12-13"
 
 # 搜索
 # Search
@@ -309,6 +311,13 @@ post:
             # ...
 
 
+    # 阅读进度
+    readingProgress:
+        enable: true
+
+
+
+
 
 #---------------------------
 # 评论插件
@@ -321,7 +330,7 @@ comment:
 
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
-    # Options: gitalk | valine | waline | twikoo
+    # Options: gitalk | valine | waline | twikoo | giscus | detalk | artalk
     type: twikoo
 
     # Gitalk
@@ -384,6 +393,49 @@ comment:
         # Vercel 版本不会引入带有腾讯 SDK 的 all.min.js
         isVercel: true
 
+    # giscus
+    # See: https://giscus.app/
+    giscus: 
+        repo: 
+        repoID: 
+        category: 
+        categoryID: 
+        mapping: 
+        term: 
+        strict: 
+        reactionsEnabled: 
+        emitMetadata: 
+        inputPosition: 
+        theme: 
+        lang: 
+        loading: 
+
+    # Detalk.js
+    # https://detalk.js.org/
+    # Free, Simple and Powerful Comment Plugin.
+    detalk:
+        config:
+            # Backend URL
+            url: ''
+            # 不要修改此项
+            # DO NOT edit this config.
+            el: '#detalk'
+            # Label
+            label:
+                admin:
+                    name: 博主
+                    class: label-green
+            # reCAPTCHA
+            recaptchaSiteKey: 
+            login:
+                github:
+            owo: 
+
+    artalk:
+        # 填你artalk后端的域名
+        envid: ''
+
+
 #---------------------------
 # 分类页
 # Category Page
@@ -440,8 +492,8 @@ talk:
     # Page Title
     title: 说说
 
-    # HexoPlusPlus / Artitalk
-    # Options: HPP | Artitalk
+    # HexoPlusPlus / Artitalk / Detalk
+    # Options: HPP | Artitalk | Detalk
     type: HPP
 
     # HexoPlusPlus, See: https://hexoplusplus.js.org/use/hexoinit.html
@@ -461,6 +513,25 @@ talk:
         avatarPla: 
         motion: 1
         bgImg:
+
+
+    Detalk:
+        config:
+            # Backend URL
+            url: ''
+            # 不要修改此项
+            # DO NOT edit this config.
+            el: '#detalk'
+            # Label
+            label:
+                admin:
+                    name: 博主
+                    class: label-green
+            # reCAPTCHA
+            recaptchaSiteKey: 
+            login:
+                github: 
+            owo: 
 
 # HexoPlusPlus 签到
 hpp_time:
@@ -498,3 +569,5 @@ static_prefix:
     twikoo: https://cdn.staticfile.org/twikoo/1.6.8/
     artitalk: https://unpkg.com/artitalk@3.3.4/artitalk.js
     hpp: https://fastly.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/
+    detalk: https://cdn.jsdelivr.net/npm/@detalk/static@1.3.1/dist/
+    artalk: https://cdn.jsdelivr.net/npm/artalk@2.4.4/dist/
