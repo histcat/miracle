@@ -9,8 +9,9 @@ tags:
 - ''
 - oi
 title: 青岛市2022编程市赛 T3结论与简易证明
-updated: '2022-08-12 20:38:52'
----首先，结论与证明来自[http://oeis.org/A005732/a005732.pdf](http://oeis.org/A005732/a005732.pdf)，这里给出简单翻译和加工
+updated: '2023-01-28 12:58:52'
+---
+首先，结论与证明来自[http://oeis.org/A005732/a005732.pdf](http://oeis.org/A005732/a005732.pdf)，这里给出简单翻译和加工
 
 ## 结论
 
@@ -36,25 +37,50 @@ updated: '2022-08-12 20:38:52'
 ### 整理柿子
 
 最后，就是整理这个式子了（挺复杂的qwq）（参考[this](https://blog.imoier.xyz/posts/13240/)）
-$\because C_{n+1}^m = C_{n}^m + C_{n}^{m-1}$
 
-$\therefore C_n^3 + 4 \times C_n^4 + 5 \times C_n^5 + C_n^6$
+$$
+\because C_{n+1}^m = C_{n}^m + C_{n}^{m-1}
+$$
 
-=$C_n^3 + 4 \times C_n^4 + 4 \times C_n^5 + C_n^5 + C_n^6$
+$$
+\therefore C_n^3 + 4 \times C_n^4 + 5 \times C_n^5 + C_n^6
+$$
 
-=$C_n^3 + 4 \times C_{n+1}^5 + C_{n+1}^6$
+$$
+=C_n^3 + 4 \times C_n^4 + 4 \times C_n^5 + C_n^5 + C_n^6
+$$
 
-=$C_n^3 + 3 \times C_{n+1}^5 + C_{n+1}^5 + C_{n+1}^6$
+$$
+=
+C_n^3 + 4 \times C_{n+1}^5 + C_{n+1}^6
+$$
 
-=$C_n^3 + 3 \times C_{n+1}^5 + C_{n+2}^6$
+$$
+=C_n^3 + 3 \times C_{n+1}^5 + C_{n+1}^5 + C_{n+1}^6
+$$
 
-=$C_n^3 + C_{n+1}^5 + 2 \times C_{n+1}^5 + C_{n+2}^6$
+$$
+=C_n^3 + 3 \times C_{n+1}^5 + C_{n+2}^6
+$$
 
-=$C_n^3 + C_n^4 + C_n^5 + 2 \times C_{n+1}^5 + C_{n+2}^6$
+$$
+=C_n^3 + C_{n+1}^5 + 2 \times C_{n+1}^5 + C_{n+2}^6
+$$
 
-=$C_{n+1}^4 + C_n^5 + 2 \times C_{n+1}^5 + C_{n+2}^6$
+$$
+=C_n^3 + C_n^4 + C_n^5 + 2 \times C_{n+1}^5 + C_{n+2}^6
+$$
 
-=$C_{n+2}^5 + C_{n+2}^6+C_n^5+C_{n+1}^5$
+$$
+=C_{n+1}^4 + C_n^5 + 2 \times C_{n+1}^5 + C_{n+2}^6
+$$
 
-=$C_{n+3}^6 + C_n^5+C_{n+1}^5$
+$$
+=C_{n+2}^5 + C_{n+2}^6+C_n^5+C_{n+1}^5
+$$
+
+$$
+=C_{n+3}^6 + C_n^5+C_{n+1}^5
+$$
+
 
