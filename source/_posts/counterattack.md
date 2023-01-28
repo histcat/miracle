@@ -10,6 +10,8 @@ tags:
 - oi
 title: 青岛市2022编程市赛 T3结论与简易证明
 updated: '2023-01-28 12:58:52'
+excerpt: '首先，结论与证明来自http://oeis.org/A005732/a005732.pdf，这里给出简单翻译和加工
+'
 ---
 首先，结论与证明来自[http://oeis.org/A005732/a005732.pdf](http://oeis.org/A005732/a005732.pdf)，这里给出简单翻译和加工
 
