@@ -7,7 +7,7 @@ tags:
 - 日常
 - 中考
 title: 中考加油
-updated: 2023-6-10T21:29:48.384+8:0
+updated: 2023-6-10T21:48:57.590+8:0
 ---
 # 中考加油！
 
@@ -29,25 +29,5 @@ updated: 2023-6-10T21:29:48.384+8:0
 
 ## 倒数日
 
-<div id="qqqq"></div>
-
-<script>
-
-window.onload=function starttime(){
-time(div,'2023/6/13');
-ptimer = setTimeout(starttime,1000); // 添加计时
-}
-function time(obj,futimg){
-var nowtime = new Date().getTime(); // 现在时间转换为时间戳
-var futruetime =  new Date(futimg).getTime(); // 未来时间转换为时间戳
-var msec = futruetime-nowtime; // 毫秒 未来时间-现在时
-var time = (msec/1000);  // 毫秒/1000
-var day = parseInt(time/86400); // 天  24*60*60*1000
-var hour = parseInt(time/3600)-24*day;    // 小时 60*60 总小时数-过去的小时数=现在的小时数
-var minute = parseInt(time%3600/60); // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数
-var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
-document.getElementById('qqqq').innerHTML="<br>距中考还有：<br style="color:red">"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"<br><span>加油！</span>"
-}
-
-</script>
+<h1 id="qqqq"></h1><script>window.onload=function starttime(){time('2023/6/13');ptimer = setTimeout(starttime,1000); // 添加计时}function time(futimg){var nowtime = new Date().getTime(); // 现在时间转换为时间戳var futruetime =  new Date(futimg).getTime(); // 未来时间转换为时间戳var msec = futruetime-nowtime; // 毫秒 未来时间-现在时var time = (msec/1000);  // 毫秒/1000var day = parseInt(time/86400); // 天  24*60*60*1000var hour = parseInt(time/3600)-24*day;    // 小时 60*60 总小时数-过去的小时数=现在的小时数var minute = parseInt(time%3600/60); // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数document.getElementById('qqqq').innerHTML="<div>距中考还有："+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"</br><span>加油！</span></div>"}</script>
 
