@@ -7,7 +7,7 @@ tags:
 - 日常
 - 中考
 title: 中考加油
-updated: 2023-6-10T21:51:13.659+8:0
+updated: 2023-6-10T21:53:59.168+8:0
 ---
 # 中考加油！
 
@@ -30,7 +30,9 @@ updated: 2023-6-10T21:51:13.659+8:0
 ## 倒数日
 
 <h1 id="qqqq"></h1>
-<script>window.onload=function starttime(){time('2023/6/13');ptimer = setTimeout(starttime,1000); // 添加计时}
+<script>window.onload=function starttime(){
+time('2023/6/13');
+ptimer = setTimeout(starttime,1000); // 添加计时}
 function time(futimg){var nowtime = new Date().getTime(); // 现在时间转换为时间戳
 var futruetime =  new Date(futimg).getTime(); // 未来时间转换为时间戳
 var msec = futruetime-nowtime; // 毫秒 未来时间-现在时
