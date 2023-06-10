@@ -29,9 +29,7 @@ updated: 2023-6-10T21:7:53.418+8:0
 
 ## 倒数日
 
-
-
-<h1 id="h1"></h1>
+<div id="h1"></h1>
 
 <script>
 
@@ -48,7 +46,7 @@ var day = parseInt(time/86400); // 天  24*60*60*1000
 var hour = parseInt(time/3600)-24*day;    // 小时 60*60 总小时数-过去的小时数=现在的小时数
 var minute = parseInt(time%3600/60); // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数
 var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
-obj.innerHTML="<br>距中考还有：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"<br><span>加油！</span>"
+obj.innerHTML="<br>距中考还有：<br style="color:red">"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"<br><span>加油！</span>"
 }
 
 </script>
