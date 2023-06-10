@@ -34,7 +34,7 @@ updated: 2023-6-10T21:7:53.418+8:0
 <script>
 
 window.onload=function starttime(){
-time(h1,'2023/6/13');
+time(div,'2023/6/13');
 ptimer = setTimeout(starttime,1000); // 添加计时
 }
 function time(obj,futimg){
