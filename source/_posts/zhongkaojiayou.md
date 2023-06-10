@@ -7,7 +7,7 @@ tags:
 - 日常
 - 中考
 title: 中考加油
-updated: 2023-6-10T21:4:12.501+8:0
+updated: 2023-6-10T21:7:53.418+8:0
 ---
 # 中考加油！
 
@@ -26,3 +26,84 @@ updated: 2023-6-10T21:4:12.501+8:0
 ![5](https://cdn.staticaly.com/gh/histcat/static@master/rawimg/5.1ln58k58dvb4.jpg)
 
 ![4](https://cdn.staticaly.com/gh/histcat/static@master/rawimg/4.byehzihdgdc.jpg)
+
+
+## 倒数日
+
+<body>
+
+<h1 id="h1"></h1>
+
+<script>
+
+window.onload=function starttime(){
+
+```
+time(h1,'2023/6/13');
+```
+
+
+```
+ptimer = setTimeout(starttime,1000); // 添加计时器
+```
+
+
+}
+
+```
+function time(obj,futimg){
+```
+
+
+```
+var nowtime = new Date().getTime(); // 现在时间转换为时间戳
+```
+
+
+```
+var futruetime =  new Date(futimg).getTime(); // 未来时间转换为时间戳
+```
+
+
+```
+var msec = futruetime-nowtime; // 毫秒 未来时间-现在时间
+```
+
+
+```
+var time = (msec/1000);  // 毫秒/1000
+```
+
+
+```
+var day = parseInt(time/86400); // 天  24*60*60*1000
+```
+
+
+```
+var hour = parseInt(time/3600)-24*day;    // 小时 60*60 总小时数-过去的小时数=现在的小时数
+```
+
+
+```
+var minute = parseInt(time%3600/60); // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数
+```
+
+
+```
+var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
+```
+
+
+```
+obj.innerHTML="<br>距中考还有：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"<br><span>加油！</span>"
+```
+
+
+}
+
+</script>
+
+</audio>
+
+</body>
