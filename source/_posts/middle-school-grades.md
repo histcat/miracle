@@ -20,4 +20,4 @@ updated: 2023-7-10T18:21:35.20+8:0
 
 啊啊啊进微尘班了
 
-![b]([Screenshot\_20230710\_181311\_edit\_30955103441629.41ttl8jk7co0.jpg (1080×2828) (histcat.top)](https://js.histcat.top/gh/histcat/static@master/rawimg/Screenshot_20230710_181311_edit_30955103441629.41ttl8jk7co0.jpg))
+![b](https://js.histcat.top/gh/histcat/static@master/rawimg/a.cil5xp5pegg.jpg)
