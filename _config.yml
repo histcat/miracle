@@ -112,7 +112,7 @@ lazyload:
 	# 仅用于文章
 	onlypost: false
 	# 加载图片
-	loadingImage: "/path/to/your/file"
+	loadingImage: "/loading.gif"
 
 webp:
   enable: false
