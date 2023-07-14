@@ -108,7 +108,7 @@ deploy:
   type: ''
 
 lazyload:
-	enable: false
+	enable: true
 	# 仅用于文章
 	onlypost: false
 	# 加载图片
