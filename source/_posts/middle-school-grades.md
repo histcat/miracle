@@ -8,11 +8,11 @@ tags:
 - 中考
 - 日常
 title: 中考成绩
-updated: 2023-7-10T20:29:55.570+8:0
+updated: 2023-7-17T21:54:5.880+8:0
 ---
 ## 中考出成绩了！
 
-![a](https://js.histcat.top/gh/histcat/static@master/rawimg/屏幕截图-2023-07-10-084921.4qzlbn4lzma0.png)
+![屏幕截图-2023-07-10-084921](https://cdn.histcat.top/rawimg/屏幕截图-2023-07-10-084921.4qzlbn4lzma0.png)
 
 （语数英满分都是120）
 
@@ -20,4 +20,5 @@ updated: 2023-7-10T20:29:55.570+8:0
 
 啊啊啊考上了！！！
 
-![b](https://js.histcat.top/gh/histcat/static@master/rawimg/a.cil5xp5pegg.jpg)
+![a](https://cdn.histcat.top/rawimg/a.cil5xp5pegg.jpg)
+
