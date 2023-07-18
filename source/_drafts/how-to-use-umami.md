@@ -7,7 +7,7 @@ tags:
 - vercel
 - umami
 title: umami安装介绍
-updated: 2023-7-18T13:24:38.586+8:0
+updated: 2023-7-18T13:25:15.801+8:0
 ---
 ## umami介绍
 
@@ -35,6 +35,10 @@ updated: 2023-7-18T13:24:38.586+8:0
 
 ![umami](https://cdn.histcat.top/rawimg/umami.3.3yq9fupg6e60.webp)
 
-name随便填，Database Password为数据库密码，务必记牢。地区不用改，点击Create New Project，之后要等待一段时间初始化。
+name随便填，Database Password为数据库密码，**务必记牢**。地区不用改，点击Create New Project，之后要等待一段时间初始化。
 
 ![umami](https://cdn.histcat.top/rawimg/umami.4.62dvi2g2kfs0.webp)
+
+之后按照图片流程，点击copy，并把密码改成设置的。数据库设置至此完毕。
+
+### 2.fork仓库，vercel部署
