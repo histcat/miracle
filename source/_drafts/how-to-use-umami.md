@@ -7,7 +7,7 @@ tags:
 - vercel
 - umami
 title: umami安装介绍
-updated: 2023-7-18T12:31:53.658+8:0
+updated: 2023-7-18T12:49:7.518+8:0
 ---
 ## umami介绍
 
@@ -30,3 +30,5 @@ updated: 2023-7-18T12:31:53.658+8:0
 3. 添加网站并配置
 
 ### 1.注册数据库账户，获得连接url
+
+随便找一个免费的mysql或postgresql数据库，这里推荐[Supabase](https://supabase.com/)，点击[这里](https://supabase.com/dashboard/sign-up)注册，可以直接使用github账户。
