@@ -42,3 +42,5 @@ name随便填，Database Password为数据库密码，**务必记牢**。地区�
 之后按照图片流程，点击copy，并把密码改成设置的。数据库设置至此完毕。
 
 ### 2.fork仓库，vercel部署
+
+[点击](https://github.com/umami-software/umami)进入后fork仓库，打开vercel，新建项目并导入仓库。![umami](https://cdn.histcat.top/rawimg/umami.5.2id62uvtxnq0.webp)
