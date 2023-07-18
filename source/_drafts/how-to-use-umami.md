@@ -31,4 +31,8 @@ updated: 2023-7-18T12:49:7.518+8:0
 
 ### 1.注册数据库账户，获得连接url
 
-随便找一个免费的mysql或postgresql数据库，这里推荐[Supabase](https://supabase.com/)，点击[这里](https://supabase.com/dashboard/sign-up)注册，可以直接使用github账户。
+随便找一个免费的mysql或postgresql数据库，这里推荐[Supabase](https://supabase.com/)，点击[这里](https://supabase.com/dashboard/sign-up)注册，可以直接使用github账户。登录后点击“New Project”。
+
+![umami](https://cdn.histcat.top/rawimg/umami.3.3yq9fupg6e60.webp)
+
+name随便填，Database Password为数据库密码，务必记牢。地区不用改，点击Create New Project。之后要等待一段时间初始化。
