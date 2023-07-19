@@ -1,3 +1,8 @@
+---
+title: 朋友圈
+date: 2022-10-09 00:38:16
+---
+
 <div id="cf-container">与主机通讯中……</div>
 <!-- 加样式和功能代码 -->
 <link rel="stylesheet" href="https://ghproxy.com/https://raw.githubusercontent.com/JesseJeson/hexo-circle-of-friends/main/front-end/fcircle.css">
