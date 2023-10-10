@@ -8,8 +8,8 @@ tags:
 - qbxt
 - 组合数学
 - 计数
-title: title
-updated: 2023-10-4T22:33:59.884+8:0
+title: 染色
+updated: 2023-10-10T23:9:26.348+8:0
 ---
 # 题目
 
