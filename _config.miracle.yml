@@ -482,7 +482,7 @@ links:
 
         # JSON 文件链接
         # Link to JSON file
-        item_links: https://ghproxy.com/https://raw.githubusercontent.com/histcat/friends/main/friends.json
+        item_links: https://mirror.ghproxy.com/https://raw.githubusercontent.com/histcat/friends/main/friends.json
 
 #---------------------------
 # 说说页
