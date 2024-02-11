@@ -13,11 +13,11 @@ global:
 
     # 用于浏览器标签的图标
     # Icon for browser tab
-    favicon: https://cdn.staticaly.com/gh/JesseJeson/picture-api@master/20220812/ico.2ayx6svgfi3o.png
+    favicon: https://cdn.jsdelivr.net/gh/JesseJeson/picture-api@master/20220812/ico.2ayx6svgfi3o.png
 
     # 用于苹果设备的图标
     # Icon for Apple touch
-    apple_touch_icon: https://cdn.staticaly.com/gh/JesseJeson/picture-api@master/20220812/ico.2ayx6svgfi3o.png
+    apple_touch_icon: https://cdn.jsdelivr.net/gh/JesseJeson/picture-api@master/20220812/ico.2ayx6svgfi3o.png
 
     # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
     # Force all links to be HTTPS (applicable to HTTP mixed error)
@@ -126,8 +126,7 @@ custom:
     # 页面头部 HTML
     # Page header HTML
     header_html: '<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-    <script defer src="https://jsd.onmicrosoft.cn/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
-    <script async src="https://umami.histcat.top/540b1ad82516" data-website-id="d4721fc3-9757-4871-8e07-90ec4d7e0a3e"></script>'
+    <script defer src="https://jsd.onmicrosoft.cn/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>'
     # 页面底部 HTML
     # Page footer HTML
     footer_html: '<p>总访问量 <span id="busuanzi_value_site_pv"></span> 次 总访客数 <span id="busuanzi_value_site_uv"></span> 人</p>'    # 页面自定义 JS（底部引入）
