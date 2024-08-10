@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_drafts/AI.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "source/_drafts/AI.md",
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "source/_drafts/AI.md",
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "source/_drafts/AI.md"
+            "file": "README.md"
           }
         }
       }
@@ -134,11 +134,16 @@
   "active": "0143349a6b19d274",
   "lastOpenFiles": [
     "source/loading.gif",
+    "source/fcircle/index.md",
+    "source/about/index.md",
+    "source/_posts/change-color.md",
+    "source/_posts/2022-summary.md",
+    "source/_posts/ P4281 [AHOI2008] 紧急集合 / 聚会.md",
+    "source/_drafts/summary-of-training-knowledge-sorting.md",
+    "source/_drafts/maths-pro.md",
     "source/_drafts/AI.md",
     "yarn.lock",
     "source/self-css.css",
-    "source/fcircle/index.md",
-    "source/about/index.md",
     "source/_posts/zhongkaojiayou.md",
     "source/_posts/wbtree.md",
     "source/_posts/the-key-mind.md",
@@ -156,11 +161,6 @@
     "source/_posts/mexor.md",
     "source/_posts/mathjax.md",
     "source/_posts/introduce-chatgpt.md",
-    "source/_posts/how-to-use-umami.md",
-    "source/_posts/factorial.md",
-    "source/_posts/double-big-num.md",
-    "source/_posts/digit-dp.md",
-    "source/_posts/decompose.md",
     "package.json",
     "package-lock.json",
     "_config.yml",
