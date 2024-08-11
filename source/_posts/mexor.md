@@ -1,11 +1,11 @@
 ---
-abbrlink: ''
+abbrlink: ""
 categories:
-- - oi
-date: '2023-10-01T17:37:14.096583+08:00'
+  - - oi
+date: 2023-10-01T17:37:14.096583+08:00
 tags:
-- oi
-- qbxt
+  - oi
+  - qbxt
 title: Mexor
 updated: 2023-10-1T17:37:15.737+8:0
 ---

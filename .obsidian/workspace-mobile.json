@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "source/_posts/factorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "source/_posts/factorial.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "source/_posts/factorial.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "source/_posts/factorial.md"
           }
         }
       }
@@ -133,6 +133,9 @@
   },
   "active": "0143349a6b19d274",
   "lastOpenFiles": [
+    "source/_posts/Happy-lunar-year-2024.md",
+    "source/_posts/mexor.md",
+    "README.md",
     "source/loading.gif",
     "source/fcircle/index.md",
     "source/about/index.md",
@@ -158,9 +161,7 @@
     "source/_posts/p1712.md",
     "source/_posts/multi-bag-3.md",
     "source/_posts/middle-school-grades.md",
-    "source/_posts/mexor.md",
     "source/_posts/mathjax.md",
-    "source/_posts/introduce-chatgpt.md",
     "package.json",
     "package-lock.json",
     "_config.yml",
